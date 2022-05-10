@@ -7,7 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.taille-titre {
+.title-size {
     font-size: 25px;
 }
 
@@ -327,7 +327,7 @@ label,
 }
 
 p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -385,24 +385,32 @@ h1 {
     height: 40px;
 }
 
+.logo-center {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     height: 100px;
     width: 100px;
 }
 
-.titre-1 {
-    width: 634px;
-    height: 75px;
+.title-1 {
+    font-size: 22px;
+    padding: 0 190px;
 }
 
-.titre-2 {
-    width: 476px;
-    height: 99px;
+.title-2 {
+    font-size: 22px;
+    padding: 0 255px;
 }
 
 .citation {
-    height: 145px;
-    width: 567px;
+    font-size: 21px;
+}
+
+.author-citation {
+    font-size: 18px;
 }
 
 .portfolio-thumb {
@@ -611,5 +619,9 @@ h1 {
     .portfolio-thumb {
         height: 100%;
         width: 100%;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
     }
 }
