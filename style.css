@@ -406,7 +406,8 @@ h1 {
 }
 
 .citation {
-    font-size: 21px;
+    font-size: 22px;
+    color: #757575;
 }
 
 .author-citation {
