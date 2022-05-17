@@ -380,19 +380,10 @@ h1 {
     color: #FFFFFF!important;
 }
 
-.logo-menu {
-    width: 217px;
-    height: 40px;
-}
 
 .logo-center {
     display: flex;
     justify-content: center;
-}
-
-.logo {
-    height: 100px;
-    width: 100px;
 }
 
 .title-1 {
