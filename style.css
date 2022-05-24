@@ -364,6 +364,10 @@ p {
     box-shadow: 0px 0px 0px #000000;
 }
 
+.formContact {
+    padding-left: 20px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -611,16 +615,6 @@ h1 {
     form {
         padding: 5px;
     }
-}
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
     .portfolio-thumb {
         height: 100%;
         width: 100%;
@@ -628,5 +622,15 @@ h1 {
     .social {
         display: flex;
         justify-content: space-between;
+    }
+    .formContact {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
