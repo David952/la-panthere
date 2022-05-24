@@ -95,7 +95,7 @@ a:hover {
 }
 
 .d-bloc a:hover .icon-md,
-.d-bloc p a:hover {
+.d-bloc p a:hover, .d-bloc a:focus .icon-md {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -127,6 +127,10 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+}
+
+.row {
+    margin: 0;
 }
 
 .row-no-gutters {
@@ -172,6 +176,10 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+}
+
+a:focus {
+    box-shadow: 0px 0px 5px #000000;
 }
 
 .nav > li {
@@ -234,6 +242,10 @@ button {
     outline: none!important;
 }
 
+button:focus {
+    box-shadow: 0px 0px 5px #000000;
+}
+
 .btn-rd {
     border-radius: 40px;
 }
@@ -268,7 +280,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -347,6 +358,10 @@ p {
 .social {
     max-width: 400px;
     margin: 25px auto 30px auto;
+}
+
+.social a:focus {
+    box-shadow: 0px 0px 0px #000000;
 }
 
 h2 {
