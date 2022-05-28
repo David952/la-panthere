@@ -100,7 +100,7 @@ a:hover {
 }
 
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .6);
 }
 
 .l-bloc button:hover {
@@ -365,7 +365,7 @@ p {
 }
 
 .formContact {
-    padding-left: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -406,6 +406,7 @@ h1 {
 }
 
 .title-1 {
+    margin-bottom: 30px;
     font-size: 22px;
     padding: 0 190px;
 }
@@ -416,6 +417,7 @@ h1 {
 }
 
 .citation {
+    margin-top: 30px;
     font-size: 22px;
     color: #757575;
 }
@@ -434,7 +436,7 @@ h1 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(149, 49, 1, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -623,9 +625,7 @@ h1 {
         display: flex;
         justify-content: space-between;
     }
-    .formContact {
-        text-align: center;
-    }
+    
 }
 
 @media (max-width: 400px) {
